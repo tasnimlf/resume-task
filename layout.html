@@ -6,13 +6,16 @@
     <title>Resume</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-orange-300 font-sans">
-    <div class="max-w-4xl mx-auto bg-orange-50 shadow-md p-8">
+  <body
+    class="bg-orange-300 font-sans"
+    style="background-image: url('leaf-bg.jpg'); background-size: 100% 100%"
+  >
+    <div class="max-w-4xl mx-auto bg-orange-50 shadow-md p-8 h-screen">
       <!-- Header Section -->
       <div class="relative">
         <div
           class="h-48 bg-cover bg-center"
-          style="background-image: url('header-background.jpeg')"
+          style="background-image: url('header-background.jpg')"
         ></div>
         <div class="absolute inset-0 flex items-center justify-start p-8">
           <img
@@ -27,55 +30,61 @@
         </div>
       </div>
       <div
-        class="border-b mt-4 mb-0.5 text-gray-500 grid grid-cols-4 gap-4 pb-7"
+        class="border-b border-gray-400 mt-4 mb-0.5 text-black grid grid-cols-4 gap-4 pb-7"
       >
         <div>
           <p class="font-bold underline">Call me</p>
-          <p>+00 123 4567890</p>
+          <p>+60123486042</p>
         </div>
         <div>
           <p class="font-bold underline">Address</p>
-          <p>123 Street Name, City Name, State, Country</p>
+          <p>Subang Bestari, Shah Alam Selangor</p>
         </div>
-        <div>
+        <div class="pl-5">
           <p class="font-bold underline">Web</p>
           <p>www.example.com</p>
         </div>
-        <div>
+        <div class="pl-7">
           <p class="font-bold underline">Languages</p>
-          <p>English, Spanish, French, Arabic</p>
+          <p>Malay, English</p>
         </div>
       </div>
 
-      <!-- Main Content -->
-      <div class="grid grid-cols-3 gap-3">
+      <div class="grid grid-cols-3 grid-gap-3">
         <!-- Left Column -->
         <div class="col-span-2">
           <!-- About Me -->
           <section class="mb-6">
-            <h2 class="text-xl font-bold pb-2 mb-4 pl-5 underline">About Me</h2>
+            <h2 class="text-xl font-bold mt-2 mb-4 pl-5 underline">About Me</h2>
 
             <p class="text-gray-600 pl-10">
-              My name is John Johnson, consectetur adipiscing elit ...
+              My name is Tasnim, Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Error, mollitia? Quidem culpa sapiente
+              architecto ipsum rem assumenda impedit suscipit labore possimus
+              esse sint voluptas repellendus, a placeat, ratione est tempora.
             </p>
           </section>
 
-          <!-- Experiences -->
           <section class="mb-6">
             <h2
-              class="text-xl font-bold border-t pb-2 pl-5 pt-2 mb-4 underline"
+              class="text-xl font-bold border-t border-gray-400 pb-2 pl-5 pt-2 mb-4 underline"
             >
               Experiences
             </h2>
             <div class="mb-4">
               <h3 class="font-semibold pl-10">
-                Company Name | Job Title | 2017-2022
+                Executive Commitee of UiTM Photography Club | 2023-2024
               </h3>
-              <p class="text-gray-600 pl-10">Lorem ipsum dolor sit amet...</p>
+              <p class="text-gray-600 pl-10 pr-4">
+                Responsible for planning, efficient execution of activities, and
+                ensuring smooth club operations, organizes events such as
+                workshops, and photo walks
+              </p>
             </div>
             <div class="mb-4">
               <h3 class="font-semibold pl-10">
-                Company Name | Job Title | 2013-2017
+                Deputy Program Director of Entrepreneurship Carnival
+                representing UiTM Photography Club | 2023
               </h3>
               <p class="text-gray-600 pl-10">Lorem ipsum dolor sit amet...</p>
             </div>
@@ -83,63 +92,67 @@
               <h3 class="font-semibold pl-10">
                 Company Name | Job Title | 2009-2013
               </h3>
-              <p class="text-gray-600 pl-10">Lorem ipsum dolor sit amet...</p>
+              <p class="text-gray-600 pl-10 border-b border-gray-400 pb-7">
+                Lorem ipsum dolor sit amet...
+              </p>
             </div>
           </section>
 
-          <!-- Skills -->
-          <section>
-            <h2 class="text-xl font-bold border-t pb-2 pt-2 mb-4 underline">
-              Pro Skills
-            </h2>
-            <ul class="list-disc list-inside text-gray-600">
-              <li>Skill 1</li>
-              <li>Skill 2</li>
-              <li>Skill 3</li>
-            </ul>
-          </section>
+          <div class="grid grid-cols-2 gap-3">
+            <section>
+              <h2 class="text-xl font-bold pl-5 mb-4 underline">Pro Skills</h2>
+              <ul class="list-disc list-inside text-gray-600 pl-10">
+                <li>Skill 1</li>
+                <li>Skill 2</li>
+                <li>Skill 3</li>
+              </ul>
+            </section>
+
+            <section class="border-l border-gray-400">
+              <h2 class="text-xl font-bold pl-5 mb-4 underline">Expertise</h2>
+              <ul class="list-disc list-inside text-gray-600 pl-10">
+                <li>Editing skills</li>
+                <li>Skill 2</li>
+                <li>Skill 3</li>
+              </ul>
+            </section>
+          </div>
         </div>
 
-        <!-- Right Column -->
-        <div class="border-l">
+        <div class="border-l border-gray-400">
           <!-- Education -->
           <section class="mb-6">
-            <h2 class="text-xl font-bold pb-2 mb-4 pl-5 underline">
+            <h2 class="text-xl font-bold pt-2 mb-4 pl-5 underline">
               Education
             </h2>
             <div class="mb-4">
-              <h3 class="font-semibold pl-10">Master Degree | 2008-2010</h3>
-              <p class="text-gray-600 pl-10">University Name, City</p>
+              <h3 class="font-semibold pl-10">Diploma | 2022 - present</h3>
+              <p class="text-gray-600 pl-10">
+                Universiti Teknologi MARA Cawangan Kelantan, Machang
+              </p>
             </div>
             <div class="mb-4 pl-10">
-              <h3 class="font-semibold">Bachelor Degree | 2004-2008</h3>
-              <p class="text-gray-600">University Name, City</p>
-            </div>
-            <div class="pl-10">
-              <h3 class="font-semibold">Special Course | 2004-2005</h3>
-              <p class="text-gray-600">University Name, City</p>
+              <h3 class="font-semibold">Highschool | 2017-2021</h3>
+              <p class="text-gray-600">SMK Subang Bestari, Shah Alam</p>
             </div>
           </section>
 
-          <!-- References -->
           <section class="mb-6">
-            <h2 class="text-xl font-bold border-b pb-2 mb-4">References</h2>
             <div class="mb-4">
-              <h3 class="font-semibold">Mary Smith</h3>
-              <p class="text-gray-600">Job Title, Company Name</p>
-              <p class="text-gray-600">E: you@example.com</p>
-            </div>
-            <div>
-              <h3 class="font-semibold">Emma Woodhouse</h3>
-              <p class="text-gray-600">Job Title, Company Name</p>
-              <p class="text-gray-600">E: you@example.com</p>
+              <h2 class="text-xl font-bold pl-5 pb-2 mb-4 underline">
+                References
+              </h2>
+              <h3 class="pl-10 font-semibold">Mary Smith</h3>
+              <p class="pl-10 text-gray-600">Job Title, Company Name</p>
+              <p class="pl-10 text-gray-600 border-b border-gray-400 pb-10">
+                E: you@example.com
+              </p>
             </div>
           </section>
 
-          <!-- Awards -->
           <section>
-            <h2 class="text-xl font-bold border-b pb-2 mb-4">Awards</h2>
-            <ul class="list-disc list-inside text-gray-600">
+            <h2 class="pl-5 text-xl font-bold mb-4 underline">Awards</h2>
+            <ul class="pl-10 list-disc list-inside text-gray-600">
               <li>Award Name | 2005</li>
               <li>Award Name | 2004</li>
             </ul>
